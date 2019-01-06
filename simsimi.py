@@ -1,6 +1,6 @@
 import urllib, json
 
-print "Silahkan kirim pesan!"
+print ("Silahkan kirim pesan!")
 
 while(True):
     pesan = raw_input("Anda: ")
