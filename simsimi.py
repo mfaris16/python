@@ -8,4 +8,4 @@ while(True):
     link_json = urllib.urlopen(url)
     data = json.loads(link_json.read())
 
-    print "simsimi: %s" % data['response']
+    print ("simsimi: %s" % data['response'])
